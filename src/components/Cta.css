@@ -7,7 +7,7 @@ image {
 }
 
 .cta-container {
-  background: url("../images/sunset.jpg") center center/cover no-repeat;
+  background: #f5f8ff;
   height: 100%;
   width: 100%;
   display: flex;
@@ -17,7 +17,14 @@ image {
   object-fit: contain;
 }
 
-.cta-container > h1 {
+.newsletter-container {
+  max-width: 600px;
+  padding: 30px;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.newsletter-container > h1 {
   color: #fff;
   font-size: 45px;
   margin-top: 80px;
@@ -27,43 +34,71 @@ image {
   text-shadow: 1px 1px 2px black;
 }
 
-.cta-container > p {
+.newsletter-container > p {
   color: #fff;
   justify-self: start;
   margin-left: 150px;
-  margin-top: 32px;
+  margin-top: 10px;
   text-shadow: 1px 1px 2px black;
+}
+
+input[type="text"] {
+  width: 75%;
+  padding: 12px 18px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: transparent;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease-out;
+  padding: 12px 26px;
+  font-size: 20px;
+  width: 75%;
+}
+
+input[type="submit"]:hover {
+  background: #b4dfd4;
+  color: white;
+  transition: all 0.3s ease-out;
+  transition: 250ms;
+  cursor: pointer;
+}
+
+input[type="submit"]:focus {
+  outline: none;
 }
 
 .btn-cta {
   margin-top: 20px;
-  margin-left: 145px;
   margin-bottom: 45px;
 }
 
-.btn-cta .btn {
-  margin: 6px;
-}
-
 .info-container {
-  margin-top: 32px;
-  margin-left: 150px;
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
 
 .info-text {
+  padding-top: 32px;
+  padding-left: 150px;
   color: rgb(27, 81, 148);
   width: 100%;
 }
 
 .info-image {
-  background: url("../images/hand.jpg");
+  background: url("../images/logo-square.jpeg");
   float: right;
   height: 100%;
   width: 100%;
@@ -87,13 +122,13 @@ image {
     margin-left: 80px;
   }
 
-  .btn-cta {
-    margin-left: 75px;
-  }
-
   .info-container {
-    margin-left: 80px;
+    margin-left: -75px;
     margin-right: 80px;
     justify-content: center;
   }
+}
+
+.newsletter-container {
+  margin: auto;
 }

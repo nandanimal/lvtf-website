@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            FEFA
+            <img src={require("../images/logo-small.png")}></img>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -37,26 +37,17 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                Find A Fridge
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
+                Our Mission
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
-                Blog
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/contact"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Contact
+                Get Involved
               </Link>
             </li>
           </ul>

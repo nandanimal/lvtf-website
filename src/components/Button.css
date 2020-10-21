@@ -18,8 +18,8 @@
 
 .btn--outline {
   background-color: transparent;
-  color: #fff;
-  border: 1px solid var(--primary);
+  color: white;
+  border: 1px solid white;
   transition: all 0.3s ease-out;
 }
 
@@ -43,7 +43,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   background: #ffb741;
-  color: #fff;
+  color: white;
   transition: all 0.3s ease-out;
   transition: 250ms;
 }

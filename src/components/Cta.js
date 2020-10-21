@@ -8,28 +8,25 @@ function Cta() {
   return (
     <>
       <div className="cta-container">
-        <h1>
-          Helping nonprofits modernize their web presence and making it easier
-          for their donors to help.
-        </h1>
-        <p>Get involved with Front End For All today.</p>
-        <div className="btn-cta">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--medium"
-            to="/donate"
-          >
-            Donate
-          </Button>
-          <Button
-            className="btns"
-            buttonStyle="btn--primary"
-            buttonSize="btn--medium"
-            to="/contact"
-          >
-            Contact
-          </Button>
+        <div className="newsletter-container">
+          <center>
+            <h1>sign up for our newsletter</h1>
+            <p>
+              for all news and updates
+              <br />
+              &#10084;
+            </p>
+
+            <br />
+
+            <form>
+              <input type="text" name="name" placeholder="Name" />
+              <br />
+              <input type="text" name="email" placeholder="Email" />
+              <br />
+              <input type="submit" value="Submit" className="btns" />
+            </form>
+          </center>
         </div>
       </div>
 

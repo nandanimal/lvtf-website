@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(27, 81, 148) 100%);
+  background: #b4dfd4;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,10 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  height: 80px;
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -27,6 +30,13 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+}
+
+.navbar-logo > img {
+  display: "inline-block";
+  alt: "LV Town Fridge";
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .fa-typo3 {
@@ -50,21 +60,22 @@
 }
 
 .nav-links {
-  color: #fff;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-size: larger;
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid black;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: #fff;
+  color: black;
 }
 
 .nav-links-mobile {
