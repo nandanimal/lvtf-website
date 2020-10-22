@@ -1,6 +1,6 @@
-import React from "react";
-import "./Footer.css";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -8,8 +8,11 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrap">
           <Link to="/" className="social-logo">
-            {" "}
-            <img src={require("../images/logo-small.png")}></img>
+            {' '}
+            <img
+              src={require('../images/logo-small.png')}
+              alt="LVTF Logo"
+            ></img>
           </Link>
 
           <div className="contact-wrap">
@@ -23,6 +26,7 @@ function Footer() {
               href="https://www.instagram.com/lvtownfridge/?hl=en"
               target="_blank"
               aria-label="Instagram"
+              rel="noopener noreferrer"
             >
               <i className="fab fa-instagram"></i>
             </a>
