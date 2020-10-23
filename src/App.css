@@ -1,26 +1,26 @@
 * {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
 }
 
 .home,
 .services,
 .products,
 .sign-up {
-  display: flex;
-  height: 90vh;
   align-items: center;
-  justify-content: center;
+  display: flex;
   font-size: 3rem;
+  height: 90vh;
+  justify-content: center;
 }
 
 .services {
   background-image: url('/images/img-2.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 100px;
 }
@@ -28,8 +28,8 @@
 .products {
   background-image: url('/images/img-1.jpg');
   background-position: center;
-  background-size: fill;
   background-repeat: no-repeat;
+  background-size: fill;
   color: #fff;
   font-size: 100px;
 }
@@ -37,8 +37,8 @@
 .sign-up {
   background-image: url('/images/img-8.jpg');
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   font-size: 100px;
 }

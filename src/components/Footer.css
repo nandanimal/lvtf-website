@@ -1,11 +1,11 @@
 .footer-container {
+  align-items: center;
   background-color: #b4dfd4;
-  padding: 2rem 0 2rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin-top: 75vh;
+  padding: 2rem 0 2rem 0;
 }
 
 /* Social Icons */
@@ -15,33 +15,33 @@
 }
 
 .social-media {
-  width: 100%;
-  max-width: 1000px;
   align-items: center;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .social-media-wrap {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1000px;
   margin: 40px auto 0 auto;
+  max-width: 1000px;
+  width: 100%;
 }
 
 .instagram-icon {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   font-size: 30px;
   padding: 20px;
 }
 
 .social-logo {
-  justify-self: start;
-  margin-left: 20px;
+  align-self: center;
   cursor: pointer;
   display: flex;
-  align-self: center;
+  justify-self: start;
   margin-bottom: 16px;
+  margin-left: 20px;
 }

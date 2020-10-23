@@ -6,11 +6,11 @@ import Button from './Button';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+  const handleClick = () => setClick(!click);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
               src={require('../images/logo-small.png')}
-              alt="LVTF Logo"
+              alt="LV Town Fridge"
             ></img>
           </Link>
           <div className="menu-icon" onClick={handleClick}>

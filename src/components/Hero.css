@@ -1,36 +1,36 @@
 image {
-  object-fit: cover;
-  width: 100%;
   height: 100%;
+  object-fit: cover;
   position: fixed;
+  width: 100%;
   z-index: -1;
 }
 
 .hero-container {
+  align-items: left;
   background: #f5f8ff;
-  height: 100%;
-  width: 100%;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
-  align-items: left;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  height: 100%;
   object-fit: contain;
+  width: 100%;
 }
 
 .newsletter-container {
-  max-width: 600px;
-  padding: 30px;
   margin-top: 50px;
   margin: auto;
+  max-width: 600px;
+  padding: 30px;
 }
 
 .newsletter-container > h1 {
   color: #fff;
   font-size: 45px;
-  margin-top: 80px;
+  justify-content: center;
   margin-left: 150px;
   margin-right: 110px;
-  justify-content: center;
+  margin-top: 80px;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -43,33 +43,34 @@ image {
 }
 
 input[type='text'] {
-  width: 75%;
-  padding: 12px 18px;
-  margin-bottom: 12px;
-  box-sizing: border-box;
   border-radius: 20px;
   border: transparent;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  padding: 12px 18px;
+  width: 75%;
 }
+
 input[type='text']:focus {
   outline: none;
 }
 
 input[type='submit'] {
   background-color: transparent;
-  color: white;
   border: 1px solid white;
-  transition: all 0.3s ease-out;
-  padding: 12px 26px;
+  color: white;
   font-size: 20px;
+  padding: 12px 26px;
+  transition: all 0.3s ease-out;
   width: 75%;
 }
 
 input[type='submit']:hover {
   background: #b4dfd4;
   color: white;
-  transition: all 0.3s ease-out;
-  transition: 250ms;
   cursor: pointer;
+  transition: 250ms;
+  transition: all 0.3s ease-out;
 }
 
 input[type='submit']:focus {
@@ -77,32 +78,32 @@ input[type='submit']:focus {
 }
 
 .btn-cta {
-  margin-top: 20px;
   margin-bottom: 45px;
+  margin-top: 20px;
 }
 
 .info-container {
-  height: 100%;
-  width: 100%;
+  align-items: left;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  height: 100%;
   object-fit: contain;
+  width: 100%;
 }
 
 .info-text {
-  padding-top: 32px;
-  padding-left: 150px;
   color: rgb(27, 81, 148);
+  padding-left: 150px;
+  padding-top: 32px;
   width: 100%;
 }
 
 .info-image {
+  alt: 'student raising her hand';
   background: url('../images/logo-square.jpeg');
   float: right;
   height: 100%;
   width: 100%;
-  alt: 'student raising her hand';
 }
 
 .learn-more-link {
@@ -112,9 +113,9 @@ input[type='submit']:focus {
 @media screen and (max-width: 960px) {
   .cta-container > h1 {
     font-size: 40px;
+    justify-content: center;
     margin-left: 80px;
     margin-right: 80px;
-    justify-content: center;
     text-shadow: 1px 1px 2px black;
   }
 
@@ -123,9 +124,9 @@ input[type='submit']:focus {
   }
 
   .info-container {
+    justify-content: center;
     margin-left: -75px;
     margin-right: 80px;
-    justify-content: center;
   }
 }
 
