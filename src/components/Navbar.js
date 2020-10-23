@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import LogoSmall from '../images/logo-small.png';
+
 import Button from './Button';
 
 import './Navbar.css';
@@ -31,10 +33,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img
-              src={require('../images/logo-small.png')}
-              alt="LV Town Fridge"
-            ></img>
+            <img src={LogoSmall} alt="LV Town Fridge"></img>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
