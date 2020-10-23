@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import HeroImage from '../images/LVTFHero.png';
+
 import '../App.css';
 import './Hero.css';
 
@@ -27,6 +29,13 @@ const Hero = () => {
               <input type="submit" value="Submit" className="btns" />
             </form>
           </center>
+        </div>
+        <div className="LogoContainer">
+          <img
+            src={HeroImage}
+            alt="Las Vegas Town Fridge Hero Pic"
+            style={{ width: '100%' }}
+          />
         </div>
       </div>
 

@@ -11,7 +11,7 @@ image {
   background: #f5f8ff;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
   object-fit: contain;
   width: 100%;
@@ -111,6 +111,9 @@ input[type='submit']:focus {
 }
 
 @media screen and (max-width: 960px) {
+  .hero-container {
+    flex-direction: column;
+  }
   .cta-container > h1 {
     font-size: 40px;
     justify-content: center;
