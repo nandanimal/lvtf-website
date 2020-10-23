@@ -1,12 +1,13 @@
 import React from 'react';
+
+import Hero from '../components/Hero';
+
 import '../App.css';
-import Cta from '../components/Cta';
-import Footer from '../components/Footer';
 
 function Home() {
   return (
     <>
-      <Cta />
+      <Hero />
     </>
   );
 }

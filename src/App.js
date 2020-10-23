@@ -1,11 +1,13 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-function App() {
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
+
+import './App.css';
+
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -17,6 +19,6 @@ function App() {
       </Router>
     </div>
   );
-}
+};
 
 export default App;

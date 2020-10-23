@@ -1,13 +1,13 @@
-import React from "react";
-import "../App.css";
-import { Button } from "./Button";
-import { Link } from "react-router-dom";
-import "./Cta.css";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Cta() {
+import '../App.css';
+import './Hero.css';
+
+const Hero = () => {
   return (
     <>
-      <div className="cta-container">
+      <div className="hero-container">
         <div className="newsletter-container">
           <center>
             <h1>sign up for our newsletter</h1>
@@ -35,8 +35,8 @@ function Cta() {
         <div className="info-text">
           <h1>
             "It's easier than ever for
-            <span style={{ color: "#FFB741" }}> small nonprofits </span>
-            to build <span style={{ color: "#FFB741" }}> fast, effective </span>
+            <span style={{ color: '#FFB741' }}> small nonprofits </span>
+            to build <span style={{ color: '#FFB741' }}> fast, effective </span>
             websites."
           </h1>
           <br />
@@ -47,6 +47,6 @@ function Cta() {
       </div>
     </>
   );
-}
+};
 
-export default Cta;
+export default Hero;

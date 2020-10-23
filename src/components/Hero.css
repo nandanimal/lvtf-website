@@ -6,7 +6,7 @@ image {
   z-index: -1;
 }
 
-.cta-container {
+.hero-container {
   background: #f5f8ff;
   height: 100%;
   width: 100%;
@@ -42,7 +42,7 @@ image {
   text-shadow: 1px 1px 2px black;
 }
 
-input[type="text"] {
+input[type='text'] {
   width: 75%;
   padding: 12px 18px;
   margin-bottom: 12px;
@@ -50,11 +50,11 @@ input[type="text"] {
   border-radius: 20px;
   border: transparent;
 }
-input[type="text"]:focus {
+input[type='text']:focus {
   outline: none;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -64,7 +64,7 @@ input[type="submit"] {
   width: 75%;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background: #b4dfd4;
   color: white;
   transition: all 0.3s ease-out;
@@ -72,7 +72,7 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-input[type="submit"]:focus {
+input[type='submit']:focus {
   outline: none;
 }
 
@@ -98,11 +98,11 @@ input[type="submit"]:focus {
 }
 
 .info-image {
-  background: url("../images/logo-square.jpeg");
+  background: url('../images/logo-square.jpeg');
   float: right;
   height: 100%;
   width: 100%;
-  alt: "student raising her hand";
+  alt: 'student raising her hand';
 }
 
 .learn-more-link {
