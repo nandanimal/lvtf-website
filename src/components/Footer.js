@@ -1,38 +1,56 @@
-import React from 'react';
-import './Footer.css';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import "./Footer.css";
+import "../App.css";
+import { Link } from "react-router-dom";
+import Cta from "../components/Cta";
 
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="social-media">
-        <div className="social-media-wrap">
-          <Link to="/" className="social-logo">
-            {' '}
-            <img
-              src={require('../images/logo-small.png')}
-              alt="LVTF Logo"
-            ></img>
-          </Link>
-
-          <div className="contact-wrap">
-            <h2>Contact us</h2>
-            <p> lvtownfridge@gmail.com</p>
+      <Cta />
+      <section className="footer-container-2">
+        <div className="row">
+          <div className="one-third column">
+            <center className="footer-item">
+              <Link to="/" className="main-logo">
+                {" "}
+                <img
+                  id="main-logo-img"
+                  src={require("../images/logo-circle.png")}
+                  alt="LVTF Logo"
+                ></img>
+              </Link>
+            </center>
+          </div>
+          <div className="one-third column">
+            <center className="footer-item">
+              <p>
+                {" "}
+                Contact: <br />
+                lvtownfridge@gmail.com <br />
+                (702) 885-4358
+              </p>
+            </center>
           </div>
 
-          <div className="instagram-icon">
-            <a
-              className="social-icon-link instagram"
-              href="https://www.instagram.com/lvtownfridge/?hl=en"
-              target="_blank"
-              aria-label="Instagram"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-instagram"></i>
-            </a>
+          <div className="one-third column">
+            <center className="footer-item">
+              <a
+                className="social-icon-link instagram"
+                href="https://www.instagram.com/lvtownfridge/?hl=en"
+                target="_blank"
+                aria-label="Instagram"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-instagram"></i>
+                <p>Follow us on Instagram!</p>
+              </a>
+            </center>
           </div>
         </div>
       </section>
+
+      <br />
 
       <center>
         <small className="website-rights">

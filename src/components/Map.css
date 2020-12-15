@@ -1,0 +1,15 @@
+#fridge-img {
+  max-height: 450px;
+}
+
+#embedded-map {
+  width: 60%;
+  height: 450px;
+}
+
+@media (max-width: 400px) {
+  #fridge-img,
+  #embedded-map {
+    width: 100%;
+  }
+}

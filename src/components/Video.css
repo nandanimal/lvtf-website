@@ -1,0 +1,12 @@
+#homepage-video {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+  padding: 30px;
+  margin: auto;
+  outline: none;
+}
+
+.video-container {
+  background-color: black;
+}

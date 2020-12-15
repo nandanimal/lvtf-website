@@ -8,41 +8,28 @@ function Cta() {
   return (
     <>
       <div className="cta-container">
-        <div className="newsletter-container">
-          <center>
-            <h1>sign up for our newsletter</h1>
-            <p>
-              for all news and updates
-              <br />
-              &#10084;
-            </p>
+        <div className="container">
+          <div className="row">
+            <center>
+              <div className="newsletter-container">
+                <p style={{ color: "black" }}>&#10084;</p>
+                <h1 className="h1-newsletter">sign up for our newsletter!</h1>
 
-            <br />
-
-            <form>
-              <input type="text" name="name" placeholder="Name" />
-              <br />
-              <input type="text" name="email" placeholder="Email" />
-              <br />
-              <input type="submit" value="Submit" className="btns" />
-            </form>
-          </center>
-        </div>
-      </div>
-
-      <div className="info-container">
-        <div className="info-image"></div>
-        <div className="info-text">
-          <h1>
-            "It's easier than ever for
-            <span style={{ color: "#FFB741" }}> small nonprofits </span>
-            to build <span style={{ color: "#FFB741" }}> fast, effective </span>
-            websites."
-          </h1>
-          <br />
-          <Link to="/about" className="learn-more-link">
-            Learn more -->
-          </Link>
+                <form>
+                  <input type="text" name="name" placeholder="Name" required />
+                  <br />
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                  <br />
+                  <input type="submit" value="Submit" className="btn-cta" />
+                </form>
+              </div>
+            </center>
+          </div>
         </div>
       </div>
     </>

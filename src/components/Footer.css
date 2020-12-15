@@ -1,11 +1,27 @@
 .footer-container {
   background-color: #b4dfd4;
-  padding: 2rem 0 2rem 0;
+  padding: 0 0 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 75vh;
+}
+
+.footer-container-2 {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer-item {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px 0;
+  margin: auto;
+  position: relative;
 }
 
 /* Social Icons */
@@ -14,34 +30,40 @@
   font-size: 24px;
 }
 
-.social-media {
-  width: 100%;
-  max-width: 1000px;
-  align-items: center;
-}
-
 .social-media-wrap {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: 10px auto 0 auto;
 }
 
 .instagram-icon {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   font-size: 30px;
   padding: 20px;
 }
 
-.social-logo {
+.main-logo {
   justify-self: start;
-  margin-left: 20px;
+  margin: auto;
   cursor: pointer;
-  display: flex;
-  align-self: center;
   margin-bottom: 16px;
+}
+#main-logo-img {
+  margin-top: -15px;
+  max-width: 100px;
+}
+
+@media screen and (max-width: 590px) {
+  .footer-item {
+    margin: -20px 0;
+  }
+  #main-logo-img {
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
 }

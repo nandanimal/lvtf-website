@@ -4,7 +4,7 @@
 
 .btn {
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 50px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -17,7 +17,7 @@
 }
 
 .btn--outline {
-  background-color: transparent;
+  background-color: #b4dfd4;
   color: white;
   border: 1px solid white;
   transition: all 0.3s ease-out;
