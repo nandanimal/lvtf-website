@@ -1,8 +1,9 @@
-import React, { Component } from "react";
-import "./Footer.css";
-import "../App.css";
+import React  from "react";
 import { Link } from "react-router-dom";
+
 import Cta from "../components/Cta";
+
+import "../styles/Footer.css";
 
 function Footer() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 
 import Banner from "../components/Banner";
+import Map from "../components/Map";
 
 import '../styles/Home.css';
 
@@ -17,7 +18,7 @@ Our volunteers work within their own communities to collaborate with local, like
 These fridges provide people with access to donate and/or take food with a goal of providing access 24/7.</p>
 
       </div>
-      <h4></h4>
+      <Map/>
     </div>
   );
 }

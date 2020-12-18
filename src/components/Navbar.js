@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
-import { Button } from "./Button";
 import Scroll from "react-scroll";
+
+import { Button } from "./Button";
+import "../styles/Navbar.css";
+
 const ScrollLink = Scroll.ScrollLink;
 
 function Navbar() {
@@ -52,22 +54,21 @@ function Navbar() {
                 Find A Fridge
               </Link>
             </li>
+             {/*
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 Our Mission
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/blog" className="nav-links" onClick={closeMobileMenu}>
                 Get Involved
               </Link>
             </li>
           </ul>
-          {button && (
             <Button buttonStyle="btn--outline" to="/donate">
               DONATE
             </Button>
-          )}
         </div>
       </nav>
     </>

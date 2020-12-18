@@ -19,8 +19,6 @@ image {
   vertical-align: middle;
   max-width: 100%;
   padding: 30px;
-  margin-top: 1.5rem;
-  margin-bottom: 5rem;
 }
 
 .h1-newsletter {
@@ -33,7 +31,7 @@ image {
   color: black;
 }
 
-input[type="text"] {
+input[type='text'] {
   padding: 12px 18px;
   margin-bottom: 12px;
   box-sizing: border-box;
@@ -41,11 +39,11 @@ input[type="text"] {
   border: transparent;
   width: 75%;
 }
-input[type="text"]:focus {
+input[type='text']:focus {
   outline: none;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   background-color: #b4dfd4;
   color: white;
   border: 1px solid white;
@@ -55,7 +53,7 @@ input[type="submit"] {
   width: 75%;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background: #ffb741;
   border: 1px solid #ffb741;
   color: white;
@@ -64,7 +62,7 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-input[type="submit"]:focus {
+input[type='submit']:focus {
   outline: none;
 }
 
@@ -81,8 +79,8 @@ input[type="submit"]:focus {
     margin: 1.5rem auto 5rem auto;
     max-width: 100%;
   }
-  input[type="submit"],
-  input[type="text"] {
+  input[type='submit'],
+  input[type='text'] {
     width: 100%;
   }
 }
