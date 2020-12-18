@@ -1,0 +1,12 @@
+.missionContainer {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: '#FFCD9C';
+}
+
+@media (max-width: 720px) {
+  .missionContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

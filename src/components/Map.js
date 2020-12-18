@@ -1,10 +1,10 @@
 import React from "react";
-import "../App.css";
-import "./Map.css";
+
+import "../styles/Map.css";
 
 export default function Map() {
   return (
-    <div className="container" style={{ marginTop: "40px" }}>
+    <div className="container" style={{ marginTop: "40px", marginBottom: '40px' }}>
       <h5>
         <u>1010 N Main St</u>
       </h5>
