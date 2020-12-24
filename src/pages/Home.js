@@ -18,7 +18,20 @@ Our volunteers work within their own communities to collaborate with local, like
 These fridges provide people with access to donate and/or take food with a goal of providing access 24/7.</p>
 
       </div>
-      <Map/>
+      <h3>Find a Fridge</h3>
+      <div className="homeMapContainer">
+        <Map/>
+          <ul className="findAFridgeLocations">
+            <li>
+          <h6>UMOK</h6>
+          1010 N Main St
+          </li>
+          <li>
+          <h6>Project4Humanity</h6>
+          912 E Sahara
+          </li>
+          </ul>
+      </div>
     </div>
   );
 }

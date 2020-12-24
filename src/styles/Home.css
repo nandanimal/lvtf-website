@@ -1,12 +1,48 @@
-.missionContainer {
+.homeContainer {
   margin-left: 5rem;
   margin-right: 5rem;
-  background-color: '#FFCD9C';
+}
+
+.missionContainer {
+  margin-bottom: 2rem;
+}
+
+.homeMapContainer {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+}
+
+.homeMapContainer > div:first-child {
+  width: 65%;
+}
+
+.homeMapContainer > div:first-child > iframe {
+  min-width: 100%;
+}
+
+.findAFridgeLocations {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  list-style-type: none;
 }
 
 @media (max-width: 720px) {
-  .missionContainer {
+  .homeContainer {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .homeMapContainer > div:first-child {
+    width: 100%;
+  }
+
+  .homeMapContainer {
+    flex-direction: column;
+  }
+
+  .findAFridgeLocations {
+    width: 100%;
   }
 }

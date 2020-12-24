@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /*
@@ -344,7 +344,7 @@ hr {
 .container:after,
 .row:after,
 .u-cf {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }

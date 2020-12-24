@@ -1,9 +1,8 @@
-#fridge-img {
-  max-height: 450px;
+.mapContainer {
+  width: 100%;
 }
 
 #embedded-map {
-  width: 60%;
   height: 450px;
 }
 

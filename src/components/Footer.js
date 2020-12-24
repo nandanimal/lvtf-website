@@ -51,7 +51,7 @@ function Footer() {
         </div>
       </section>
 
-      <br />
+      {/* <br /> */}
 
       <center>
         <small className="website-rights">
