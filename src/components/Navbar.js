@@ -29,7 +29,6 @@ function Navbar() {
   window.addEventListener("resize", showButton);
 
   return (
-    <>
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
@@ -65,13 +64,12 @@ function Navbar() {
                 Get Involved
               </Link>
             </li>
-          </ul>
-            <Button buttonStyle="btn--outline" to="/donate">
+            <Button buttonStyle="btn--outline" to="/donate" navbarButtonSpecific>
               DONATE
             </Button>
+          </ul>
         </div>
       </nav>
-    </>
   );
 }
 

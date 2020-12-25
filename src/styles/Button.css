@@ -47,3 +47,10 @@
   transition: all 0.3s ease-out;
   transition: 250ms;
 }
+
+.navbarButtonSpecific {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
