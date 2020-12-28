@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "../styles/Cta.css";
+import '../styles/Cta.css';
 
 function Cta() {
   return (
@@ -10,7 +10,7 @@ function Cta() {
           <div className="row">
             <center>
               <div className="newsletter-container">
-                <p style={{ color: "black" }}>&#10084;</p>
+                <p style={{ color: 'black' }}>&#10084;</p>
                 <h1 className="h1-newsletter">sign up for our newsletter!</h1>
 
                 <form>

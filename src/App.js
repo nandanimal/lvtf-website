@@ -1,10 +1,10 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import Fridges from "./pages/Fridges";
+import React from 'react';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
+import Home from './pages/Home';
+import Footer from './components/Footer';
+import Fridges from './pages/Fridges';
 
 function App() {
   return (

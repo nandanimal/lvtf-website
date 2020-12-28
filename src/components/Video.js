@@ -1,7 +1,7 @@
-import React from "react";
-import video from "../images/video.mov";
+import React from 'react';
+import video from '../images/video.mov';
 
-import "../styles/Video.css";
+import '../styles/Video.css';
 
 export default function Video() {
   return (
