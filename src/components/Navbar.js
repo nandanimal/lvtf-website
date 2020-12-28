@@ -50,7 +50,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Find A Fridge
+                About
               </Link>
             </li>
              {/*

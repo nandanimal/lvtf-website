@@ -8,7 +8,7 @@ import "../styles/Footer.css";
 function Footer() {
   return (
     <div className="footer-container">
-      <Cta />
+      {/* <Cta /> */}
       <section className="footer-container-2">
         <div className="row">
           <div className="one-third column">
