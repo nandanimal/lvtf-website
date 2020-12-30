@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Scroll from 'react-scroll';
 
 import { Button } from './Button';
 import '../styles/Navbar.css';
 
-const ScrollLink = Scroll.ScrollLink;
 
 function Navbar() {
   const [click, setClick] = useState(false);

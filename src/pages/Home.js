@@ -32,6 +32,9 @@ const Home = () => {
           <p style={{fontSize: '25px'}}>The Las Vegas Town Fridge Project is a collective looking to nourish our communities. We are your neighbors with a mission to combat food security and waste.
 
 Our volunteers work within their own communities to collaborate with local, like-minded partners to place community refrigerators across the city.</p>
+            <Button buttonStyle="btn--outline">
+              Read more
+            </Button>
         </div>
       </div>
 
@@ -40,7 +43,22 @@ Our volunteers work within their own communities to collaborate with local, like
         <div className="mapAndText">
           <Map/>
           <div className="fridgeTextLocations">
-          hello world
+            <span>
+              <p>UMOK</p>
+              <p style={{ fontSize: '25px', color: '#888888'}}>1010 N Main Street</p>
+            </span>
+
+            <span>
+              <p>Project4Humanity</p>
+              <p style={{ fontSize: '25px', color: '#888888'}}>912 E Sahara</p>
+            </span>
+
+           <div className="interestedContainer">
+            <p style={{ fontSize: '25px'}}>Interested in hosting a fridge?</p>
+            <Button buttonStyle="btn--outline">
+              Click here
+            </Button>
+           </div>
           </div>
         </div>
       </div>

@@ -11,6 +11,7 @@ export default function Map() {
       style={{ border: '0' }}
       allowFullScreen=""
       aria-hidden="false"
+      title="Fridge Locations"
       tabIndex="0"
     ></iframe>
   );
