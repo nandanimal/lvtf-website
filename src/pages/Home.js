@@ -1,39 +1,69 @@
-import React from "react";
+import React from 'react';
 
-import Banner from "../components/Banner";
-import Map from "../components/Map";
+import Map from '../components/Map';
+import {Button} from '../components/Button';
 
 import '../styles/Home.css';
 
-function Home() {
+const Home = () => {
   return (
     <div className="homeContainer">
-      <Banner />
-      <div className="missionContainer">
-        <h3>Mission</h3>
-        <p style={{lineHeight: 1.6, fontSize: '1.2rem'}}>The Las Vegas Town Fridge Project is a collective looking to nourish our communities. We are your neighbors with a mission to combat food security and waste.
+      <div className="bannerContainer">
+        <div className="takeWhatYouNeedContainer">
+          <p style={{fontSize: '35px', fontWeight: 800}}>Take what you need, + leave what you can.</p> 
+          <div style={{display: 'flex', justifyContent: 'flex-end'}}>
+            {/* @TODO where link to */}
+            <Button buttonStyle="btn--outline" to="">
+                  Get Involved
+            </Button>
 
-Our volunteers work within their own communities to collaborate with local, like-minded partners to place community refrigerators across the city.
-
-These fridges provide people with access to donate and/or take food with a goal of providing access 24/7.</p>
-
+            <Button buttonStyle="btn--outline" to="">
+                  Find a Fridge
+            </Button>
+          </div>
+        </div>
+        <img id="lvtfwoman-img" src={require('../images/lvtf-shirt-cropped.png')} alt="LVTF Woman"/>
       </div>
-      <h3>Find a Fridge</h3>
-      <div className="homeMapContainer">
-        <Map/>
-          <ul className="findAFridgeLocations">
-            <li>
-          <h6>UMOK</h6>
-          1010 N Main St
-          </li>
-          <li>
-          <h6>Project4Humanity</h6>
-          912 E Sahara
-          </li>
-          </ul>
+
+      <div className="missionContainer">
+        <img id="lvtf-logo" src={require('../images/logo-circle.png')} alt="lvtf-logo"/>
+        <div className="missionText">
+          <p style={{fontSize: '35px', fontWeight: 800}}>Our Mission</p>
+          <p style={{fontSize: '25px'}}>The Las Vegas Town Fridge Project is a collective looking to nourish our communities. We are your neighbors with a mission to combat food security and waste.
+
+Our volunteers work within their own communities to collaborate with local, like-minded partners to place community refrigerators across the city.</p>
+            <Button buttonStyle="btn--outline">
+              Read more
+            </Button>
+        </div>
+      </div>
+
+      <div className="mapContainer">
+        <p style={{fontSize: '35px', fontWeight: 800, marginBottom: '.8rem'}}> Find a Fridge</p>
+        <div className="mapAndText">
+          <Map/>
+          <div className="fridgeTextLocations">
+            <span>
+              <p>UMOK</p>
+              <p style={{ fontSize: '25px', color: '#888888'}}>1010 N Main Street</p>
+            </span>
+
+            <span>
+              <p>Project4Humanity</p>
+              <p style={{ fontSize: '25px', color: '#888888'}}>912 E Sahara</p>
+            </span>
+
+           <div className="interestedContainer">
+            <p style={{ fontSize: '25px'}}>Interested in hosting a fridge?</p>
+            <Button buttonStyle="btn--outline">
+              Click here
+            </Button>
+           </div>
+          </div>
+        </div>
       </div>
     </div>
   );
-}
+};
 
 export default Home;

@@ -1,23 +1,21 @@
-import React  from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Cta from "../components/Cta";
-
-import "../styles/Footer.css";
+import '../styles/Footer.css';
 
 function Footer() {
   return (
     <div className="footer-container">
-      <Cta />
+      {/* <Cta /> */}
       <section className="footer-container-2">
         <div className="row">
           <div className="one-third column">
             <center className="footer-item">
               <Link to="/" className="main-logo">
-                {" "}
+                {' '}
                 <img
                   id="main-logo-img"
-                  src={require("../images/logo-circle.png")}
+                  src={require('../images/logo-circle.png')}
                   alt="LVTF Logo"
                 ></img>
               </Link>
@@ -26,7 +24,7 @@ function Footer() {
           <div className="one-third column">
             <center className="footer-item">
               <p>
-                {" "}
+                {' '}
                 Contact: <br />
                 lvtownfridge@gmail.com <br />
                 (702) 885-4358

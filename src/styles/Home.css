@@ -1,48 +1,132 @@
 .homeContainer {
-  margin-left: 5rem;
-  margin-right: 5rem;
+  margin: 0 12.5em;
 }
 
+/* Banner CSS */
+.bannerContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.takeWhatYouNeedContainer {
+  background-color: #f5f8ff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+  padding: 2rem;
+  width: 30%;
+}
+
+#takeWhatYouNeedText {
+  font-size: 35px;
+}
+
+#lvtfwoman-img {
+  width: 50%;
+}
+
+/* Mission CSS */
 .missionContainer {
-  margin-bottom: 2rem;
-}
-
-.homeMapContainer {
+  align-items: center;
+  background: #f5f8ff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px grey;
   display: flex;
-  margin-bottom: 2rem;
-  justify-content: space-around;
+  justify-content: center;
+  padding: 2em 4em;
+  margin: 2em 8em;
 }
 
-.homeMapContainer > div:first-child {
-  width: 65%;
+#lvtf-logo {
+  width: 30%;
 }
 
-.homeMapContainer > div:first-child > iframe {
-  min-width: 100%;
+/* Map CSS */
+.mapContainer {
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 2em;
 }
 
-.findAFridgeLocations {
+.mapAndText {
   display: flex;
-  justify-content: space-around;
-  width: 35%;
-  list-style-type: none;
+}
+
+.mapAndText > iframe {
+  width: 70%;
+}
+
+.fridgeTextLocations {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 35px;
+  font-weight: 800;
+  margin-left: 1em;
+  width: 40%;
+}
+
+.interestedContainer {
+  align-items: center;
+  background: #f5f8ff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
 }
 
 @media (max-width: 720px) {
   .homeContainer {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 0;
   }
 
-  .homeMapContainer > div:first-child {
+  /* Banner CSS */
+  .bannerContainer {
+    flex-direction: column;
+    margin-top: 1em;
+  }
+
+  .takeWhatYouNeedContainer {
+    width: 90%;
+  }
+
+  #lvtfwoman-img {
+    width: 90%;
+  }
+
+  /* Mission CSS */
+  .missionContainer {
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em 2em;
+  }
+
+  #lvtf-logo {
     width: 100%;
   }
 
-  .homeMapContainer {
+  /* Map CSS */
+  .mapContainer {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .mapAndText {
     flex-direction: column;
   }
 
-  .findAFridgeLocations {
-    width: 100%;
+  .fridgeTextLocations {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 80%;
+  }
+
+  .fridgeTextLocations > span {
+    padding-bottom: 0.5em;
   }
 }
