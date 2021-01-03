@@ -1,0 +1,18 @@
+.aboutContainer {
+  font-size: 25px;
+}
+
+.ourStoryContainer {
+  margin: 0 4em;
+  background: #f5f8ff;
+  box-shadow: 0px 2px 4px grey;
+  padding: 1em 2em;
+  border-radius: 20px;
+}
+
+@media (max-width: 720px) {
+  .ourStoryContainer {
+    margin: 0 1em;
+    padding: 1em;
+  }
+}

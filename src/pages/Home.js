@@ -49,7 +49,7 @@ Our volunteers work within their own communities to collaborate with local, like
               <p style={{ fontSize: '25px', color: '#888888'}}>1010 N Main Street</p>
             </span>
 
-            <span>sd
+            <span>
               <p>Project4Humanity</p>
               <p style={{ fontSize: '25px', color: '#888888'}}>912 E Sahara</p>
             </span>
