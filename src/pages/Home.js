@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <div className="homeContainer">
       <div className="bannerContainer">
+        <img className="wavyBackgroundImage" src={require("../images/background-wavy.png")} alt="wavy background"/>
         <div className="takeWhatYouNeedContainer">
           <p style={{fontSize: '35px', fontWeight: 800}}>Take what you need, + leave what you can.</p> 
           <div style={{display: 'flex', justifyContent: 'flex-end'}}>
@@ -48,7 +49,7 @@ Our volunteers work within their own communities to collaborate with local, like
               <p style={{ fontSize: '25px', color: '#888888'}}>1010 N Main Street</p>
             </span>
 
-            <span>
+            <span>sd
               <p>Project4Humanity</p>
               <p style={{ fontSize: '25px', color: '#888888'}}>912 E Sahara</p>
             </span>

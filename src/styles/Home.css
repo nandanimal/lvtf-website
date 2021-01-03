@@ -29,6 +29,12 @@
   width: 50%;
 }
 
+.wavyBackgroundImage {
+  position: absolute;
+  width: 100%;
+  z-index: -100;
+}
+
 /* Mission CSS */
 .missionContainer {
   align-items: center;
@@ -37,8 +43,8 @@
   box-shadow: 0px 2px 4px grey;
   display: flex;
   justify-content: center;
+  margin: 7em 8em;
   padding: 2em 4em;
-  margin: 2em 8em;
 }
 
 #lvtf-logo {
@@ -49,7 +55,7 @@
 .mapContainer {
   margin-left: 8em;
   margin-right: 8em;
-  margin-bottom: 2em;
+  margin-bottom: 5em;
 }
 
 .mapAndText {
@@ -83,6 +89,10 @@
 @media (max-width: 720px) {
   .homeContainer {
     margin: 0;
+  }
+
+  .wavyBackgroundImage {
+    top: 55%;
   }
 
   /* Banner CSS */
