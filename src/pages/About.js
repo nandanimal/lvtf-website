@@ -33,7 +33,16 @@ const About = () => {
                     distribution. That's where (we think) community fridges come in.
                 </p>
                 <div className="textWithSideImage">
-                    
+                    <img src={require('../images/fridge.jpg')} alt='Main Street Fridge Picture' className='ourStoryFridgePic'/>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <p style={textStyles}>A community fridge streamlines the process of donating food, opening the
+                        door for anyone to easily help out in their community. Fridges are additional points of access - not just for people
+                        who take from the fridges, but also those who can provide to them. Whereas a traditional food bank can accept
+                        certain foods and supplies via federally subsidized contracts (and has high set up and operations costs), a
+                        community fridge is an easy, flexible, and cheap alternative.</p>
+                        <p style={textStyles}>By working to understand what is happening with otherwise predestined food waste and the role we
+                        play in it, we can begin to see how we can instead work to address food insecurity and fight food waste at the same time.</p>
+                    </div>
                 </div>
             </div>
         </div>

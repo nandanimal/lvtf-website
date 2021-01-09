@@ -1,5 +1,6 @@
 .aboutContainer {
   font-size: 25px;
+  margin: 1.2em 0;
 }
 
 .ourStoryContainer {
@@ -10,9 +11,26 @@
   border-radius: 20px;
 }
 
+.textWithSideImage {
+  display: flex;
+}
+
+.ourStoryFridgePic {
+  height: 40rem;
+}
+
 @media (max-width: 720px) {
   .ourStoryContainer {
     margin: 0 1em;
     padding: 1em;
+  }
+
+  .textWithSideImage {
+    flex-direction: column;
+  }
+
+  .ourStoryFridgePic {
+    height: 20rem;
+    margin: 0.5em 0;
   }
 }
