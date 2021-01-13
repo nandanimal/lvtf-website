@@ -114,6 +114,8 @@
     flex-direction: column;
     margin: 1em;
     padding: 1em 2em;
+    position: relative;
+    top: -30px;
   }
 
   #lvtf-logo {
