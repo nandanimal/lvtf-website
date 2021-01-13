@@ -23,6 +23,12 @@
   position: relative;
 }
 
+.instgram {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
 /* Social Icons */
 .contact .social-icon-link {
   color: black;

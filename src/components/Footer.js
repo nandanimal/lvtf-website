@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import '../styles/Footer.css';
 
@@ -13,11 +13,7 @@ function Footer() {
             <center className="footer-item">
               <Link to="/" className="main-logo">
                 {' '}
-                <img
-                  id="main-logo-img"
-                  src={require('../images/logo-circle.png')}
-                  alt="LVTF Logo"
-                ></img>
+                <img id="main-logo-img" src={require('../images/logo-circle.png')} alt="LVTF Logo"></img>
               </Link>
             </center>
           </div>
@@ -27,7 +23,6 @@ function Footer() {
                 {' '}
                 Contact: <br />
                 lvtownfridge@gmail.com <br />
-                (702) 885-4358
               </p>
             </center>
           </div>
@@ -40,9 +35,9 @@ function Footer() {
                 target="_blank"
                 aria-label="Instagram"
                 rel="noopener noreferrer"
-              >
-                <i className="fab fa-instagram"></i>
-                <p>Follow us on Instagram!</p>
+                style={{textDecoration: 'none', color: 'black'}}>
+                <p>Instagram</p>
+                <p>@lvtownfridge</p>
               </a>
             </center>
           </div>
@@ -53,7 +48,7 @@ function Footer() {
 
       <center>
         <small className="website-rights">
-          © 2020 Las Vegas Town Fridge
+          © 2021 Las Vegas Town Fridge
           <br />
           All rights reserved.
         </small>

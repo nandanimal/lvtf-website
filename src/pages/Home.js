@@ -5,6 +5,21 @@ import {Button} from '../components/Button';
 
 import '../styles/Home.css';
 
+const fridgeLocations = [
+  {
+    title: 'UMOK',
+    address: '1010 N Main St',
+  },
+  {
+    title: 'Project4Humanity',
+    address: '912 E Sahara Ave',
+  },
+  {
+    title: 'Sweeney',
+    address: '1041 Sweeney Ave',
+  },
+];
+
 const Home = () => {
   return (
     <div className="homeContainer">
@@ -22,9 +37,10 @@ const Home = () => {
               Get Involved
             </Button>
 
-            <Button buttonStyle="btn--outline" to="">
+            <a href="#mapAndText" className="findAFridgeButton">
+              {' '}
               Find a Fridge
-            </Button>
+            </a>
           </div>
         </div>
         <img id="lvtfwoman-img" src={require('../images/lvtf-shirt-cropped.png')} alt="LVTF Woman" />
@@ -34,7 +50,7 @@ const Home = () => {
         <img id="lvtf-logo" src={require('../images/logo-circle.png')} alt="lvtf-logo" />
         <div className="missionText">
           <p style={{fontSize: '35px', fontWeight: 800}}>Our Mission</p>
-          <p style={{fontSize: '25px'}}>
+          <p style={{fontSize: '25px', paddingBottom: '1em'}}>
             The Las Vegas Town Fridge Project is a collective looking to nourish our communities. We are your
             neighbors with a mission to combat food security and waste. Our volunteers work within their own
             communities to collaborate with local, like-minded partners to place community refrigerators
@@ -46,18 +62,17 @@ const Home = () => {
 
       <div className="mapContainer">
         <p style={{fontSize: '35px', fontWeight: 800, marginBottom: '.8rem'}}> Find a Fridge</p>
-        <div className="mapAndText">
+        <div className="mapAndText" id="mapAndText">
           <Map />
           <div className="fridgeTextLocations">
-            <span>
-              <p>UMOK</p>
-              <p style={{fontSize: '25px', color: '#888888'}}>1010 N Main Street</p>
-            </span>
-
-            <span>
-              <p>Project4Humanity</p>
-              <p style={{fontSize: '25px', color: '#888888'}}>912 E Sahara</p>
-            </span>
+            {fridgeLocations.map((fridge) => {
+              return (
+                <span>
+                  <p>{fridge.title}</p>
+                  <p style={{fontSize: '25px', color: '#888888'}}>{fridge.address}</p>
+                </span>
+              );
+            })}
 
             <div className="interestedContainer">
               <p style={{fontSize: '25px'}}>Interested in hosting a fridge?</p>
