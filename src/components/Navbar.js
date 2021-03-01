@@ -41,7 +41,7 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
             <Link
-              to="/Fridges"
+              to="/about"
               spy={true}
               smooth={true}
               duration={500}
