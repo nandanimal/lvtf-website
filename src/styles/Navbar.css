@@ -60,13 +60,14 @@
 }
 
 .nav-links {
-  color: black;
-  display: flex;
   align-items: center;
-  text-decoration: none;
-  padding: 0.5rem 1rem 0 1rem;
+  color: white;
+  display: flex;
+  font-family: 'Fami';
+  font-size: 1.5em;
   height: 100%;
-  font-size: larger;
+  padding: 0.5rem 1rem 0 1rem;
+  text-decoration: none;
 }
 
 .nav-links:hover {

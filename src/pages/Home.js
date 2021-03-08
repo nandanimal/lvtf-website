@@ -20,6 +20,8 @@ const fridgeLocations = [
   },
 ];
 
+const headerTextStyle = {fontSize: '35px', fontWeight: 800, fontFamily: 'Fami'};
+
 const Home = () => {
   return (
     <div className="homeContainer">
@@ -30,7 +32,7 @@ const Home = () => {
           alt="wavy background"
         />
         <div className="takeWhatYouNeedContainer">
-          <p style={{fontSize: '35px', fontWeight: 800}}>Take what you need, + leave what you can.</p>
+          <p style={headerTextStyle}>Take what you need, + leave what you can.</p>
           <div style={{display: 'flex', justifyContent: 'flex-end'}}>
             {/* @TODO where link to */}
             <Button buttonStyle="btn--outline" to="/get-involved">
@@ -49,7 +51,7 @@ const Home = () => {
       <div className="missionContainer">
         <img id="lvtf-logo" src={require('../images/logo-circle.png')} alt="lvtf-logo" />
         <div className="missionText">
-          <p style={{fontSize: '35px', fontWeight: 800}}>Our Mission</p>
+          <p style={headerTextStyle}>Our Mission</p>
           <p style={{fontSize: '25px', paddingBottom: '1em'}}>
             The Las Vegas Town Fridge Project is a collective looking to nourish our communities. We are your
             neighbors with a mission to combat food security and waste. Our volunteers work within their own
@@ -63,14 +65,17 @@ const Home = () => {
       </div>
 
       <div className="mapContainer">
-        <p style={{fontSize: '35px', fontWeight: 800, marginBottom: '.8rem'}}> Find a Fridge</p>
+        <p style={{fontSize: '35px', fontWeight: 800, marginBottom: '.8rem', fontFamily: 'Fami'}}>
+          {' '}
+          Find a Fridge
+        </p>
         <div className="mapAndText" id="mapAndText">
           <Map />
           <div className="fridgeTextLocations">
             {fridgeLocations.map((fridge) => {
               return (
                 <span>
-                  <p>{fridge.title}</p>
+                  <p style={{fontFamily: 'Fami'}}>{fridge.title}</p>
                   <p style={{fontSize: '25px', color: '#888888'}}>{fridge.address}</p>
                 </span>
               );

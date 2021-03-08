@@ -5,7 +5,9 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import {GetInvolved, About, Home} from './pages';
 
+import './fonts/Fami/FAMI.TTF';
 import './App.css';
+
 function App() {
   return (
     <div className="App">
