@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Fami';
+  src: local('Fami'), url(./fonts/Fami/FAMI.TTF) format('truetype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

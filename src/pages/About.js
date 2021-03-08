@@ -38,7 +38,7 @@ const About = () => {
                 Your browser does not support the video tag.
             </video> */}
       <div className="ourStoryContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em'}}>Our story</p>
+        <p style={{fontSize: '35px', marginBottom: '.8em', fontFamily: 'Fami'}}>Our story</p>
         <p style={textStyles}>
           Take a trip to your local supermarket, restaurant kitchen, or maybe even your own refrigerator and
           pantry, and you'll see what seems to be an abundance of food. So much of that food, however, never
@@ -58,11 +58,7 @@ const About = () => {
           distribution. That's where (we think) community fridges come in.
         </p>
 
-        <img
-          src={require('../images/fridge.jpg')}
-          alt="Main Street Fridge Picture"
-          className="ourStoryFridgePic"
-        />
+        <img src={require('../images/fridge.jpg')} alt="Main Street Fridge" className="ourStoryFridgePic" />
         <p style={textStyles}>
           A community fridge streamlines the process of donating food, opening the door for anyone to easily
           help out in their community. Fridges are additional points of access - not just for people who take
@@ -75,17 +71,19 @@ const About = () => {
           play in it, we can begin to see how we can instead work to address food insecurity and fight food
           waste at the same time.
         </p>
-        <div style={{float: 'right'}}>
-          <Button buttonStyle="btn--outline">Get Involved</Button>
+        <div style={{float: 'right', width: '100%', textAlign: 'right'}}>
+          <Button buttonStyle="btn--outline" to="/get-involved">
+            Get Involved
+          </Button>
           <Button buttonStyle="btn--outline">Donate</Button>
         </div>
       </div>
 
       <div className="newsContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em', paddingLeft: '1em'}}>News</p>
+        <p style={{fontSize: '35px', marginBottom: '.8em', paddingLeft: '1em', fontFamily: 'Fami'}}>News</p>
         {newsList.map((news) => {
           return (
-            <a href={news.link} target="_blank" className="individualNewsContainer">
+            <a href={news.link} target="_blank" className="individualNewsContainer" rel="noopener noreferrer">
               <img src={news.image} alt={news.alt} className="newsImage" />
               <div style={{flexDirection: 'column'}}>
                 <p style={{fontSize: '15px', color: 'grey'}}>{news.date}</p>
