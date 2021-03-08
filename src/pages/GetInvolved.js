@@ -9,7 +9,7 @@ const GetInvolved = () => {
     <>
       <div className="hostAFridgeContainer">
         <div className="hostTextContainer">
-          <p style={{fontSize: '35px', marginBottom: '.8em'}}>Host a fridge</p>
+          <p style={{fontSize: '35px', marginBottom: '.8em', fontFamily: 'Fami'}}>Host a fridge</p>
           <p style={textStyles}>
             Are you interested in providing a home for a community refrigerator? All a fridge really needs is
           </p>
@@ -37,7 +37,7 @@ const GetInvolved = () => {
           alt="multiple cartoon people"
         />
         <div style={{flexDirection: 'column'}}>
-          <p style={{fontSize: '35px', marginBottom: '.8em'}}>Volunteer with us</p>
+          <p style={{fontSize: '35px', marginBottom: '.8em', fontFamily: 'Fami'}}>Volunteer with us</p>
           <p style={textStyles}>
             Our community is special because of people like you. None of this could have happened without
             y'all, and none of this can continue happening without y'all. So however you are thinking of

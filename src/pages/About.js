@@ -38,7 +38,7 @@ const About = () => {
                 Your browser does not support the video tag.
             </video> */}
       <div className="ourStoryContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em'}}>Our story</p>
+        <p style={{fontSize: '35px', marginBottom: '.8em', fontFamily: 'Fami'}}>Our story</p>
         <p style={textStyles}>
           Take a trip to your local supermarket, restaurant kitchen, or maybe even your own refrigerator and
           pantry, and you'll see what seems to be an abundance of food. So much of that food, however, never
@@ -80,7 +80,7 @@ const About = () => {
       </div>
 
       <div className="newsContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em', paddingLeft: '1em'}}>News</p>
+        <p style={{fontSize: '35px', marginBottom: '.8em', paddingLeft: '1em', fontFamily: 'Fami'}}>News</p>
         {newsList.map((news) => {
           return (
             <a href={news.link} target="_blank" className="individualNewsContainer" rel="noopener noreferrer">

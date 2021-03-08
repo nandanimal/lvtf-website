@@ -19,11 +19,11 @@ function Footer() {
           </div>
           <div className="one-third column">
             <center className="footer-item">
-              <p>
+              <p style={{fontFamily: 'Fami'}}>
                 {' '}
                 Contact: <br />
-                lvtownfridge@gmail.com <br />
               </p>
+              lvtownfridge@gmail.com <br />
             </center>
           </div>
 
@@ -35,9 +35,9 @@ function Footer() {
                 target="_blank"
                 aria-label="Instagram"
                 rel="noopener noreferrer"
-                style={{textDecoration: 'none', color: 'black'}}>
-                <p>Instagram</p>
-                <p>@lvtownfridge</p>
+                style={{textDecoration: 'none', color: 'white'}}>
+                <p style={{fontFamily: 'Fami'}}>Instagram</p>
+                @lvtownfridge
               </a>
             </center>
           </div>
