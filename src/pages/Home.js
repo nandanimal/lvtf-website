@@ -33,7 +33,7 @@ const Home = () => {
           <p style={{fontSize: '35px', fontWeight: 800}}>Take what you need, + leave what you can.</p>
           <div style={{display: 'flex', justifyContent: 'flex-end'}}>
             {/* @TODO where link to */}
-            <Button buttonStyle="btn--outline" to="">
+            <Button buttonStyle="btn--outline" to="/get-involved">
               Get Involved
             </Button>
 
@@ -56,7 +56,9 @@ const Home = () => {
             communities to collaborate with local, like-minded partners to place community refrigerators
             across the city.
           </p>
-          <Button buttonStyle="btn--outline">Read more</Button>
+          <Button buttonStyle="btn--outline" to="/about">
+            Read more
+          </Button>
         </div>
       </div>
 
@@ -76,7 +78,9 @@ const Home = () => {
 
             <div className="interestedContainer">
               <p style={{fontSize: '25px'}}>Interested in hosting a fridge?</p>
-              <Button buttonStyle="btn--outline">Click here</Button>
+              <Button buttonStyle="btn--outline" to="/get-involved">
+                Click here
+              </Button>
             </div>
           </div>
         </div>

@@ -75,8 +75,10 @@ const About = () => {
           play in it, we can begin to see how we can instead work to address food insecurity and fight food
           waste at the same time.
         </p>
-        <div style={{float: 'right'}}>
-          <Button buttonStyle="btn--outline">Get Involved</Button>
+        <div style={{float: 'right', width: '100%', textAlign: 'right'}}>
+          <Button buttonStyle="btn--outline" to="/get-involved">
+            Get Involved
+          </Button>
           <Button buttonStyle="btn--outline">Donate</Button>
         </div>
       </div>
