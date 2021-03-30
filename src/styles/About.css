@@ -7,7 +7,7 @@
   background: #f5f8ff;
   border-radius: 20px;
   box-shadow: 0px 2px 4px grey;
-  margin: 0 4em;
+  margin: 0 6em;
   overflow: hidden;
   padding: 1em 2em;
 }
@@ -17,13 +17,13 @@
   border-radius: 40px;
   float: left;
   height: auto;
-  margin-right: 2em;
+  margin: 1em 2em 1em 0;
   padding: 1em;
   width: 10em;
 }
 
 .newsContainer {
-  margin: 2em 4em;
+  margin: 2em 6em;
 }
 
 .individualNewsContainer {
@@ -55,6 +55,9 @@
   .ourStoryFridgePic {
     float: none;
     margin-right: 0;
+  }
+  .fridgePicContainer {
+    text-align: center;
   }
 
   .newsContainer {

@@ -59,9 +59,11 @@ const Home = () => {
             communities to collaborate with local, like-minded partners to place community refrigerators
             across the city.
           </p>
-          <Button buttonStyle="btn--outline" to="/about">
-            Read more
-          </Button>
+          <div style={{float: 'right', width: '100%', textAlign: 'right'}}>
+            <Button buttonStyle="btn--outline" to="/about">
+              Read more
+            </Button>
+          </div>
         </div>
       </div>
 
