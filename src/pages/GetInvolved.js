@@ -24,10 +24,10 @@ const GetInvolved = () => {
                 <p style={textStyles}>
                   Our community is special because of people like you. None of this could have happened
                   without y'all, and none of this can continue happening without y'all. So however you are
-                  thinking of helping--be it graphic Design, social Media, outreach, cleaning, stocking,
-                  transportation, beautifying, fundraising, or something else we've never even heard of or
-                  considered yet--we encourage you to get in touch with us and share your ideas. We will do
-                  what we can to help you actualize those ideas in your own community.
+                  thinking of helping &mdash; be it graphic Design, social Media, outreach, cleaning,
+                  stocking, transportation, beautifying, fundraising, or something else we've never even heard
+                  of or considered yet &mdash; we encourage you to get in touch with us and share your ideas.
+                  We will do what we can to help you actualize those ideas in your own community.
                 </p>
                 <p style={textStyles}>
                   If you'd like to be added to our volunteer list, please fill out the form below!

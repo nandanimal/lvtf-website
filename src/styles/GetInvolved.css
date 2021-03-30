@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .getInvolvedContainer {
   display: flex;
   margin: 3em 6em;
