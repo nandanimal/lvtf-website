@@ -38,27 +38,31 @@ const About = () => {
                 Your browser does not support the video tag.
             </video> */}
       <div className="ourStoryContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em', fontFamily: 'Fami'}}>Our story</p>
+        <p style={{fontSize: '50px', marginBottom: '0em', fontFamily: 'Fami'}}>Our story</p>
         <p style={textStyles}>
           Take a trip to your local supermarket, restaurant kitchen, or maybe even your own refrigerator and
           pantry, and you'll see what seems to be an abundance of food. So much of that food, however, never
           reaches the people that really need it.
         </p>
         <p style={textStyles}>
-          In other words, the problem is no longer about production--it's about distribution.
+          In other words, the problem is no longer about production &mdash; it's about distribution.
         </p>
         <p style={textStyles}>
           That being said, people can donate food to one another. Here in Nevada, Individual and nonprofits
           are protected under the Bill Emerson Good Samaritan Food Donation Act, which means that you, me, or
-          anyone else for that matter ...
+          anyone else for that matter{' '}
+          <a href="https://www.refed.com/tools/food-waste-policy-finder/nevada/" target="blank">
+            is free to feed their neighbors without penalty of law.
+          </a>
         </p>
         <p style={textStyles}>So why don't we?</p>
         <p style={textStyles}>
-          There's a lot of reasons - too many to hash out here, but again, most stem from the issue of
+          There's a lot of reasons &mdash; too many to hash out here, but again, most stem from the issue of
           distribution. That's where (we think) community fridges come in.
         </p>
-
-        <img src={require('../images/fridge.jpg')} alt="Main Street Fridge" className="ourStoryFridgePic" />
+        <div className="fridgePicContainer">
+          <img src={require('../images/fridge.jpg')} alt="Main Street Fridge" className="ourStoryFridgePic" />
+        </div>
         <p style={textStyles}>
           A community fridge streamlines the process of donating food, opening the door for anyone to easily
           help out in their community. Fridges are additional points of access - not just for people who take
@@ -80,7 +84,7 @@ const About = () => {
       </div>
 
       <div className="newsContainer">
-        <p style={{fontSize: '35px', marginBottom: '.8em', paddingLeft: '1em', fontFamily: 'Fami'}}>News</p>
+        <p style={{fontSize: '50px', marginBottom: '0.5em', paddingLeft: '1em', fontFamily: 'Fami'}}>News</p>
         {newsList.map((news) => {
           return (
             <a href={news.link} target="_blank" className="individualNewsContainer" rel="noopener noreferrer">

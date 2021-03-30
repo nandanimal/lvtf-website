@@ -23,6 +23,12 @@
   font-size: 20px;
   text-align: center;
 }
+.findAFridgeButton:hover {
+  background: #ffb741;
+  color: white;
+  transition: all 0.3s ease-out;
+  transition: 250ms;
+}
 
 .takeWhatYouNeedContainer {
   background-color: #f5f8ff;
@@ -55,7 +61,7 @@
   display: flex;
   justify-content: center;
   margin: 7em 8em;
-  padding: 2em 4em;
+  padding: 2em 4em 2em 1em;
 }
 
 #lvtf-logo {
@@ -114,6 +120,7 @@
 
   .takeWhatYouNeedContainer {
     width: 90%;
+    text-align: justify;
   }
 
   #lvtfwoman-img {

@@ -20,7 +20,7 @@ const fridgeLocations = [
   },
 ];
 
-const headerTextStyle = {fontSize: '35px', fontWeight: 800, fontFamily: 'Fami'};
+const headerTextStyle = {fontSize: '50px', fontWeight: 800, fontFamily: 'Fami'};
 
 const Home = () => {
   return (
@@ -33,13 +33,14 @@ const Home = () => {
         />
         <div className="takeWhatYouNeedContainer">
           <p style={headerTextStyle}>Take what you need, + leave what you can.</p>
+          <br />
           <div style={{display: 'flex', justifyContent: 'flex-end'}}>
             {/* @TODO where link to */}
             <Button buttonStyle="btn--outline" to="/get-involved">
               Get Involved
             </Button>
 
-            <a href="#mapAndText" className="findAFridgeButton">
+            <a href="#mapContainer" className="findAFridgeButton">
               {' '}
               Find a Fridge
             </a>
@@ -58,13 +59,15 @@ const Home = () => {
             communities to collaborate with local, like-minded partners to place community refrigerators
             across the city.
           </p>
-          <Button buttonStyle="btn--outline" to="/about">
-            Read more
-          </Button>
+          <div style={{float: 'right', width: '100%', textAlign: 'right'}}>
+            <Button buttonStyle="btn--outline" to="/about">
+              Read more
+            </Button>
+          </div>
         </div>
       </div>
 
-      <div className="mapContainer">
+      <div className="mapContainer" id="mapContainer">
         <p style={{fontSize: '35px', fontWeight: 800, marginBottom: '.8rem', fontFamily: 'Fami'}}>
           {' '}
           Find a Fridge
