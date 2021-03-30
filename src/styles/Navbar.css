@@ -71,12 +71,12 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid white;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: black;
+  color: white;
 }
 
 .nav-links-mobile {
@@ -127,7 +127,7 @@
 
   .nav-links:hover {
     background-color: #fff;
-    color: #242424;
+    color: white;
     border-radius: 0;
   }
 
@@ -170,7 +170,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: #242424;
+    color: white;
     transition: 250ms;
   }
 }
